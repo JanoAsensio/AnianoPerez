@@ -1,0 +1,37 @@
+/*
+Error: Inconsistent indentation: "\t\t\t    " was used for indentation, but the rest of the document was indented using 1 tab.
+        on line 24 of main.sass
+
+19: 				content: ""
+20: 				position: absolute
+21: 				background-color: rgba(0,0,0, 0.4)
+22: 				top: 0
+23: 				bottom: 0
+24: 			    left: 0
+25: 			    right: 0
+26: 				nav
+27: 					position: fixed
+28: 				    text-align: right
+29: 				    padding: 30px 50px 0 0
+
+Backtrace:
+main.sass:24
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:494:in `block in tabulate'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:452:in `each'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:452:in `each_with_index'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:452:in `tabulate'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:417:in `_to_tree'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+C:/Ruby27-x64/bin/sass:23:in `load'
+C:/Ruby27-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: \"\t\t\t    \" was used for indentation, but the rest of the document was indented using 1 tab.\A         on line 24 of main.sass\A \A 19: 				content: \"\"\A 20: 				position: absolute\A 21: 				background-color: rgba(0,0,0, 0.4)\A 22: 				top: 0\A 23: 				bottom: 0\A 24: 			    left: 0\A 25: 			    right: 0\A 26: 				nav\A 27: 					position: fixed\A 28: 				    text-align: right\A 29: 				    padding: 30px 50px 0 0"; }
